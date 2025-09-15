@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    text-decoration:red underline;
+    letter-spacing: 20px;
+}
+h2{
+    font-weight: normal;
+    text-decoration: wavy blue overline;
+}
+p{
+    line-height:2.5;
+    font-size:20px;
+}

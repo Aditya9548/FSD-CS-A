@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="/action">
+      <fieldset>
+        <legend>User Information</legend>
+      <label>
+            Username
+            <input type="text" placeholder="enter your name" id="username" name="user">
+        </label>
+        <br>
+        <label>
+            Password
+            <input type="password" placeholder="set a password">
+        </label>
+        </fieldset>
+        <br>
+        <label for="number">Age: </label>
+        <input type="number" placeholder="enter your age" id="number">
+        <br>
+        <label for="time">Time of birth: </label>
+        <input type="time" id="time">
+        <br>
+        <label for="colour">Enter your skin colour: </label>
+        <input type="color" id="colour">
+        <br>
+        <button>Submit</button>
+        <button type="reset">Reset</button>
+        <br>
+        <input type="button" value="Click Me">
+        <input type="submit" value="Click Me Again">
+      <hr>
+    </form>
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="enter what you want to search" name="q">
+        <button>search</button>
+        <hr>
+    </form>
+    <form action="/server">
+      <div>
+        Whats your Type?
+        <br>
+        <input type="checkbox" name="type" id="hero" checked/>
+        <label for="hero">HERO</label>
+        <input type="checkbox" name="type" id="villain" value="bad"/>
+        <label for="villain">VILLAIN</label>
+      </div>
+        <br>
+      <div>
+        Your Gender is?
+        <br>
+        <input type="radio" name="Gender" id="male" value="male"/>
+        <label for="male">MALE</label>
+        <input type="radio" name="Gender" id="female" value="female"/>
+        <label for="female">FEMALE</label>
+      </div>
+        <hr>
+      <div>
+        Proffesion?
+        <br>
+        <select name="proffesion" id="proffesion">
+          <option>--Choose your Proffesion--</option>
+          <option value="student">Student</option>
+          <option value="developer">Developer</option>
+          <option value="hr">Hirer</option>
+        </select>
+      </div>
+        <button>Submit</button>
+        <hr>
+    </form>
+    <form action="/server1">
+      <div>
+        Whats the mood?
+          <input type="range" min="0" max="200" name="mood" step="20" value="0"/>
+          <label for="mood">MOOD</label>
+          <br>
+      </div>
+      <div>
+          <label for="anime">Name and Describe your favorite anime-</label>
+          <textarea id="anime" name="anime" rows="5" cols="50" placeholder="Write here"></textarea>
+      </div>
+      <button>submit</button>
+    </form>
+  </body>
+</html>
